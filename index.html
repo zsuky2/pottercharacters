@@ -5,21 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harry Potter karakterek</title>
+    <link href="http://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
 
-        <img src="hogwarts.svg">
-        <input type="text" class="caracter-name" placeholder="Ide írd a kedvenc karaktered nevét...">
+        <img class="logo" src="hogwarts.svg">
+        <input type="text" id="character-name" placeholder="Who is your favorite character?"">
         
-        <button id="btn">Keresés</button>
+        <button id="btn">Search</button>
     </div>
 
-    <div id="caracter-result">
-        <h3 id="caracter-name"></h3>
-        <p id="caracter-house"></p>
-        <img id="caracter-img" src="" alt="">
+    <div id="character-result">
+        <h3 id="character-name"></h3>
+        <p id="character-house"></p>
+        <img id="character-img" src="" alt="">
     </div>
     
 <script src="app.js"></script>
