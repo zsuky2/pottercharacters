@@ -113,10 +113,29 @@ body{
 
 #character-result{
 
-    margin-top: 2rem;
-    color: #fff;
-    text-align: center;
+    color: #111;
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#character-result div{
+
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+}
+
+#character-result img{
+
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+
 }
